@@ -74,7 +74,7 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
     }
     
     func changeScene(_ setupScene: SCNScene?, setupDelegate: SCNSceneRendererDelegate?, completion: (()->Void)!){// Отвечает за смену сцены
-        if let scene = setupScene, let overlay = GameViewController.overlay, let delegate = setupDelegate{
+        if let scene = setupScene, let overlay = GameViewController.overlay, let _ = setupDelegate{
             overlay.removeAllChildren()
             scnView.scene = scene
             scnView.delegate = setupDelegate
