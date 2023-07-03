@@ -18,7 +18,7 @@ class Menu: SCNScene, SCNSceneRendererDelegate {
         setupCameraAndLight()
         setupFloor()
 
-        let sceneOne = SCNScene(named: "art.scnassets/Scene11.dae")! // Объявляем сцену
+        let sceneOne = SCNScene(named: "art.scnassets/SceneOne3.scn")! // Объявляем сцену
         
         emptyFloorAnimation1.scale = SCNVector3(allScale: 0.1) // Уменьшаем размер нода, используя расширение
         emptyFloorAnimation1.position = SCNVector3(0, -1.2, 0) // Устанавливаем позицию нода(Накладываем поверх неподвижного пола)
