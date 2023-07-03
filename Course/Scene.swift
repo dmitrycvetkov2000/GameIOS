@@ -53,7 +53,7 @@ class Scene: SCNScene, SCNSceneRendererDelegate, SCNPhysicsContactDelegate {
         physicsWorld.gravity = SCNVector3(0, -5.0, 0) // Применим мировую гравитацию ко всей сцене
         physicsWorld.contactDelegate = self // Говорим игре, что слушателем является текущий класс
         
-        let sceneOne = SCNScene(named: "art.scnassets/SceneOne.scn")! // Объявляем сцену
+        let sceneOne = SCNScene(named: "art.scnassets/SceneOne3.scn")! // Объявляем сцену
         
         emptyFloorAnimation1.scale = SCNVector3(allScale: 0.09) // Уменьшаем размер нода, используя расширение
         emptyFloorAnimation1.position = SCNVector3(0, -1.2, 0) // Устанавливаем позицию нода(Накладываем поверх неподвижного пола)
@@ -222,7 +222,7 @@ class Scene: SCNScene, SCNSceneRendererDelegate, SCNPhysicsContactDelegate {
         rootNode.addChildNode(collideFloor)
     }
 
-    var number = 2
+    var number = 2 // Чтобы сначала появилась звезда
     var change = true
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) { // Здесь описывается логика движения пола
 

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9C7EBF2A5311FD0000F7A7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB3E8927BD223A0074D8D4 /* art.scnassets */; };
 		0ABB2E3C27C53F1F00BBCBFA /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB2E3B27C53F1F00BBCBFA /* Scene.swift */; };
 		0ABB3E8827BD223A0074D8D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB3E8727BD223A0074D8D4 /* AppDelegate.swift */; };
-		0ABB3E8A27BD223A0074D8D4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB3E8927BD223A0074D8D4 /* art.scnassets */; };
 		0ABB3E8C27BD223A0074D8D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB3E8B27BD223A0074D8D4 /* GameViewController.swift */; };
 		0ABB3E8F27BD223A0074D8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB3E8D27BD223A0074D8D4 /* Main.storyboard */; };
 		0ABB3E9127BD223D0074D8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB3E9027BD223D0074D8D4 /* Assets.xcassets */; };
@@ -132,8 +132,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABB3E8A27BD223A0074D8D4 /* art.scnassets in Resources */,
 				0ABB3E9427BD223D0074D8D4 /* LaunchScreen.storyboard in Resources */,
+				0A9C7EBF2A5311FD0000F7A7 /* art.scnassets in Resources */,
 				0ABB3E9127BD223D0074D8D4 /* Assets.xcassets in Resources */,
 				0ABB3E8F27BD223A0074D8D4 /* Main.storyboard in Resources */,
 			);
@@ -301,12 +301,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N684VBLPX;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,12 +329,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N684VBLPX;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
